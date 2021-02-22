@@ -1,0 +1,16 @@
+.cover__link{
+    /* font-size: 72px;
+    line-height: 1.06;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    margin: 0; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    /* display: block;
+    height: 100%; */
+}

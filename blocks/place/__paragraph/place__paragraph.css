@@ -1,0 +1,11 @@
+.place__paragraph {
+    margin: 0;
+}
+.place__paragraph:nth-child(2n+2) {
+    margin-top: 26px;
+}
+@media screen and (max-width: 1023px) {
+    .place__paragraph:nth-child(2n+2) {
+        margin-top: 25px;
+    }
+}
