@@ -13,10 +13,5 @@
 @font-face {
   font-family: "Inter";
   font-weight: 900;
-  src: url("../fonts/Inter-Black.woff") format("woff"),
-  url("../fonts/Inter-Black.woff2") format("woff2");
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> ba3cf3de16ba2f0f88a368195141de0dd5f43eb1
+  src: url("../../vendor/fonts/Inter-Black.woff") format("woff"),
+  url("../../vendor/fonts/Inter-Black.woff2") format("woff2");
