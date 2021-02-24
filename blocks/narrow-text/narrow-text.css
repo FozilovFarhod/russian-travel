@@ -1,0 +1,7 @@
+/* Используется для уменьшения ширины текстовых блоков на маленьких экранах */
+@media screen and (max-width: 767px) {
+    .narrow-text {
+        width: calc(100% - 16px*2);
+        margin: 0 auto;
+    }
+}

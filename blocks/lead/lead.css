@@ -1,13 +1,20 @@
-.lead{
+.lead {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     min-width: 320px;
-
-    
 }
 
+@media screen and (min-width: 1280px) {
+    .lead {
+        max-width: calc(100% - 100px*2);
+    }
+}
 
-
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .lead {
+        max-width: calc(100% - 48px*2);
+    }
+}

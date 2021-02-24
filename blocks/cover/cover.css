@@ -1,13 +1,9 @@
 .cover {
-    min-width: calc(100% - 96px);
+    width: 100%;
     margin: 0 auto;
     min-height: 740px;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
     z-index: 1;
 }
@@ -44,6 +40,13 @@
     
 }
 @media screen and (max-width: 767px) {
+    .cover {
+        min-width: 100%;
+        min-height: 265px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
     .cover {
         min-width: 100%;
         min-height: 200px;
