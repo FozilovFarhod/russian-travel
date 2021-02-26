@@ -1,0 +1,29 @@
+.intro-container {
+    max-width: 984px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro-container {
+        margin: 0 100px;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    .intro-container {
+        width: calc(100% - 48px*2);
+    }
+} 
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .intro-container {
+        width: calc(100% - 24px*2);
+    }
+} 
+@media screen and (max-width: 767px) {
+    .intro-container {
+        width: calc(100% - 16px*2);
+    }
+} 
